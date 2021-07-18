@@ -15,7 +15,7 @@ pivoted as (
             ,
         {% endif -%}
 
-        {%- endfor -%}
+        {%- endfor %}
 
         from payments
         where status = 'success'
